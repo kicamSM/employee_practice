@@ -14,9 +14,9 @@
         <p>
             {{field.label}}
             {{field}}
-            {{% for err in field.errors %}}
+            {% for err in field.errors %}
             {{err}}
-            {{% endfor %}}
+            {% endfor %}
         </p>
         {% endfor %}
         <button>Submit</button>
